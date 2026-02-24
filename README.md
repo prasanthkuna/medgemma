@@ -22,7 +22,7 @@ graph TD
         Sidecar -->|Computer Vision| Vision[Blur & Resolution Check]
         Sidecar -->|Voice-to-Text| Whisper[Local Whisper-V3]
         Sidecar -->|Policy RAG| FAISS[FAISS Vector Search]
-        Sidecar -->|Inference| PramanaAI[Pramana AI-2B / Llama 3.2]
+        Sidecar -->|Inference| PramanaAI[Pramana AI [MedGemma 1.5-4B]]
     end
     
     FAISS -.->|Context| PolicyDocs[(Clinical Policy PDFs)]
