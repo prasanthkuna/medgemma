@@ -22,11 +22,11 @@ graph TD
         Sidecar -->|Computer Vision| Vision[Blur & Resolution Check]
         Sidecar -->|Voice-to-Text| Whisper[Local Whisper-V3]
         Sidecar -->|Policy RAG| FAISS[FAISS Vector Search]
-        Sidecar -->|Inference| Pramana AI[Pramana AI-2B / Llama 3.2]
+        Sidecar -->|Inference| PramanaAI[Pramana AI-2B / Llama 3.2]
     end
     
     FAISS -.->|Context| PolicyDocs[(Clinical Policy PDFs)]
-    Pramana AI -->|Decision| AuditResult[Structured Justification]
+    PramanaAI -->|Decision| AuditResult[Structured Justification]
     
     subgraph "Data Layer"
         Sidecar <--> DB[(SQLite: pramana.sqlite)]
