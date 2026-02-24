@@ -1,0 +1,40 @@
+# Aegis Local - Docker Compose
+version: '3.8'
+
+services:
+  # Python Sidecar (Backend)
+  sidecar:
+    build:
+      context: ./sidecar
+      dockerfile: Dockerfile
+    container_name: medgemma-sidecar
+    volumes:
+      - ./data:/app/data
+    environment:
+      - AEGIS_API_HOST=0.0.0.0
+      - AEGIS_API_PORT=8000
+      # Pass through host.docker.internal to access Ollama running on host
+      - AEGIS_OLLAMA_BASE_URL=http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - medgemma-net
+    restart: unless-stopped
+
+  # SvelteKit UI (Frontend)
+  ui:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    container_name: medgemma-ui
+    ports:
+      - "80:80"
+    depends_on:
+      - sidecar
+    networks:
+      - medgemma-net
+    restart: unless-stopped
+
+networks:
+  medgemma-net:
+    driver: bridge

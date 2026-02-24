@@ -1,0 +1,36 @@
+# --- Environment & Agent Metadata (King Mode) ---
+.env
+.env.local
+.agent/
+.gemini/
+.system_generated/
+data/aegis.sqlite
+data/policies/*/faiss_index/
+logs/
+*.log
+
+# --- Python & Backend ---
+.venv/
+env/
+venv/
+bin/
+lib/
+share/
+Include/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# --- Frontend & UI (Redirect to ui/.gitignore) ---
+ui/node_modules/
+ui/.svelte-kit/
+ui/build/
+ui/dist/
+
+# --- OS Artifacts ---
+.DS_Store
+Thumbs.db
+Desktop.ini

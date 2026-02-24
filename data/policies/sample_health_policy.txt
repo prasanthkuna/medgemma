@@ -1,0 +1,42 @@
+
+SAMPLE HEALTH INSURANCE POLICY DOCUMENT
+========================================
+
+This is a sample policy document for testing purposes.
+
+SECTION 1: COVERAGE
+- Hospitalization expenses covered up to policy limit
+- Pre-hospitalization: 30 days prior to admission
+- Post-hospitalization: 60 days after discharge
+
+SECTION 2: REQUIRED DOCUMENTS
+For reimbursement claims, the following documents are mandatory:
+1. Original hospital bills with itemized breakup
+2. Discharge summary with diagnosis and treatment details
+3. Doctor's prescription and progress notes
+4. Lab and investigation reports
+5. Pharmacy bills with serial numbers (if implants used)
+6. Implant stickers with serial numbers for cardio/ortho cases
+
+SECTION 3: IMPLANT CLAIMS
+For cardiac stent or orthopedic implant claims:
+- Original implant sticker MUST be attached
+- Serial number must match pharmacy invoice
+- OT notes must mention implant details
+- Pre-authorization required for procedures > Rs. 2,00,000
+
+SECTION 4: ICU COVERAGE
+- ICU charges covered as per policy terms
+- Daily ICU chart with vital signs required
+- Nursing notes for each ICU day mandatory
+- Justification needed for ICU stay > 3 days
+
+SECTION 5: CLAIM SUBMISSION
+- Submit within 15 days of discharge
+- Incomplete documents will result in query
+- All documents must have patient name matching
+
+SECTION 6: QUERY RESOLUTION
+- Respond to queries within 7 days
+- Provide supporting evidence with citations
+- Late responses may result in claim denial

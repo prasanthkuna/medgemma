@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-01-29T17:30:15.865050",
+  "cases": {
+    "case_001_cardio_perfect": {
+      "lane": "cardio",
+      "expected_score": "GREEN",
+      "description": "Complete cardio case with 2 stents, all docs present"
+    },
+    "case_002_ortho_blurry": {
+      "lane": "ortho",
+      "expected_score": "AMBER",
+      "description": "Hip replacement with blurry sticker image"
+    },
+    "case_003_cardio_icu": {
+      "lane": "cardio",
+      "expected_score": "RED",
+      "description": "5-day ICU stay but missing ICU documentation"
+    },
+    "004_Jane_Knee": {
+      "lane": "ortho",
+      "expected_score": "AMBER",
+      "description": "Total Knee Arthroplasty case missing Physical Therapy documentation (failed medical necessity)"
+    },
+    "005_Jane_Pro": {
+      "lane": "ortho",
+      "expected_score": "GREEN",
+      "description": "HIGH-FIDELITY PRO DEMO: Real scans of Radiology, Consult Note, and Implant Sticker."
+    }
+  },
+  "policies": [
+    "cardio_guidelines.txt",
+    "ortho_guidelines.txt",
+    "sample_health_policy.txt"
+  ],
+  "mtsamples": false
+}

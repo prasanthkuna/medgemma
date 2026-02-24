@@ -1,0 +1,33 @@
+
+CARDIAC PROCEDURE CLAIM GUIDELINES
+==================================
+
+Required Documents for Cardiac Stent Claims:
+
+1. MANDATORY DOCUMENTS
+   - Discharge Summary with procedure details
+   - Angiography report (pre-procedure)
+   - Stent implant sticker with visible serial number
+   - OT Notes mentioning stent type and quantity
+   - Pharmacy bill with stent serial number
+   - Cardiologist notes and recommendations
+   
+2. FOR ICU STAYS
+   - Daily ICU monitoring charts
+   - Nursing notes
+   - Vital signs record
+   
+3. COVERAGE LIMITS
+   - Drug-eluting stent: Up to Rs. 40,000 per stent
+   - Bare metal stent: Up to Rs. 20,000 per stent
+   - Maximum 3 stents per procedure covered
+   
+4. PRE-AUTHORIZATION
+   - Required for all CABG procedures
+   - Required if total cost > Rs. 3,00,000
+   
+5. COMMON DENIAL REASONS
+   - Missing or blurry stent sticker
+   - Serial number mismatch between sticker and bill
+   - Incomplete ICU documentation for >2 day stays
+   - Missing angiography report

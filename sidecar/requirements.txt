@@ -1,0 +1,28 @@
+# Aegis Local - Python Sidecar
+# Dependencies for FastAPI backend
+
+fastapi>=0.128.0
+uvicorn>=0.40.0
+pydantic>=2.7.0
+python-multipart>=0.0.22
+
+# PDF Processing
+pypdf>=6.6.0
+pdfplumber>=0.11.0
+Pillow>=12.0.0
+
+# Vector Store & RAG
+faiss-cpu>=1.13.0
+langchain>=1.2.0
+langchain-core>=1.2.0
+
+# LLM & Audio Integration
+ollama>=0.6.0
+openai-whisper>=20240930
+torch>=2.4.0
+
+# Database
+aiosqlite>=0.21.0
+
+# Utilities
+python-dateutil>=2.9.0
